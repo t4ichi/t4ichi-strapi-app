@@ -15,17 +15,18 @@
       "type": "string"
     },
     "visitDate": {
-      "type": "datetime"
+      "type": "date"
     },
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "googleMapLink": {
       "type": "string"

@@ -564,7 +564,7 @@ export interface ApiRamenRamen extends Struct.CollectionTypeSchema {
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    visitDate: Schema.Attribute.DateTime;
+    visitDate: Schema.Attribute.Date;
   };
 }
 
